@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-huggingface
+langchain-google-genai
+pytesseract
+pdf2image
+Pillow
+torch
+chromadb
+pypdf
+tiktoken

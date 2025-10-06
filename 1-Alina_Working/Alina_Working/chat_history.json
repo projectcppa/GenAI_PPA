@@ -1,0 +1,114 @@
+[
+  {
+    "input": {
+      "input": "lliaf formula?"
+    },
+    "output": {
+      "output": "The formula for the Local Loan Interest Adjustment Factor (LLIAFq) is:\n\nLLIAFq = {KIBORt + 3.25%} / {[KIBORRef + 3.25%}\n\nwhere:\n*   **LLIAFq** is the value of the Local Loan Interest Rate Adjustment Factor applicable for the Quarter following the relevant indexation date, \"t\".\n\n(star hydro power limited.pdf, Page 158)"
+    }
+  },
+  {
+    "input": {
+      "input": "LD per month formula after COD?"
+    },
+    "output": {
+      "output": "Pursuant to Section 9.6 of the Power Purchase Agreement, the Company shall be liable to pay the liquidated damages in the relevant Month (LDM) after the Commercial Operations Date (COD) to the Power Purchaser, which shall be the sum of liquidated damages for each hour (LDh) in such relevant Month, as formulated hereunder:\n\n**LDM** = sum of liquidated damages for each hour (LDh) in such relevant Month.\n\n**Conditions for LDh:**\nLDh for an hour shall be applicable and payable only if the Forced or Partial Forced Outage period allowed to the Company under Sections 5.6 (A) first have been exhausted in the relevant Agreement Year.\n\n**Forced or Partial Forced Outage period:**\n*   For the first Agreement Year: the product of the Tested Capacity and 200 hours.\n*   After the first Agreement Year: the product of the Tested Capacity and the sum of 133 hours and fifty percent (50%) of the Scheduled Outage Hours left unutilized in the Year that ended.\n\n(star hydro power limited.pdf, Page 146)"
+    }
+  },
+  {
+    "input": {
+      "input": "what is HBS PPA about?"
+    },
+    "output": {
+      "output": "Based on the provided documents, the \"HBS PPA\" (Power Purchase Agreement) is about:\n\n*   **Dispute Resolution and Jurisdiction:** It covers the award or decision of any arbitrator appointed under the Agreement to resolve disputes between the Parties. It also addresses the making, enforcement, or execution against assets (excluding Protected Assets), waiver of objections to inconvenient forums, and the Company's unconditional and irrevocable consent to jurisdiction (HBS PPA.pdf, Page 183).\n*   **Procurement of Benefits:** It discusses obtaining or inducing the procurement of the Agreement itself, or any related contract, consent, approval, right, interest, privilege, or other obligation or benefit related to the Agreement or the Project from the Power Purchaser or any Public Sector Entity (HBS PPA.pdf, Page 193).\n*   **Execution of Agreement:** It specifies that the Agreement may be executed in two or more original copies, with each copy executed by the Parties in separate counterparts (HBS PPA.pdf, Page 193)."
+    }
+  },
+  {
+    "input": {
+      "input": "what if I change 147 to 150 MW"
+    },
+    "output": {
+      "output": "The provided documents do not explicitly define \"147 MW\" or \"150 MW\" as specific variables or fixed values. However, if these values were to represent either the **Contract Capacity** or the **initial Tested Capacity on COD**, or a change in these, it would impact the calculation of Liquidated Damages (LDs) due to capacity shortfall.\n\nAccording to Section 2.9 of the Power Purchase Agreement (star hydro power limited.pdf, Page 145), if the Tested Capacity at the time of Commissioning is less than the Contract Capacity, the Company pays liquidated damages (LDc) calculated as:\n\n**LDc = MW shortfall \\* LD Rate**\n\nWhere:\n**MW shortfall = (Contract Capacity - initial Tested Capacity on COD) in MW**\n\nIf you change a value from 147 MW to 150 MW, the impact would depend on what these numbers represent:\n\n1.  **If 147 MW or 150 MW refers to the `Contract Capacity` or `initial Tested Capacity on COD`:**\n    *   The `MW shortfall` would change based on the new values.\n    *   This new `MW shortfall` would then be used to determine the applicable `LD Rate` based on its percentage of the `Contract Capacity`.\n\n2.  **LD Rates are determined as follows (star hydro power limited.pdf, Page 145):**\n    *   If the `MW shortfall` does not exceed 2% of the Contract Capacity, then US$ 400,000 per MW.\n    *   If the `MW shortfall` exceeds 2% but does not exceed 5% of the Contract Capacity, then US$ 500,000 per MW.\n    *   If the `MW shortfall` exceeds 5% but does not exceed 10% of the Contract Capacity, then US$ 625,000 per MW.\n\nTherefore, changing a capacity value from 147 MW to 150 MW would alter the `MW shortfall`, potentially changing the applicable `LD Rate` and consequently the total `LDc` payable. Without knowing which specific variable (Contract Capacity, Tested Capacity, or a reduction amount) these numbers refer to, a precise calculation cannot be provided.\n\nAdditionally, the documents mention \"reduction in the Contract Capacity\" (star hydro power limited.pdf, Page 36; HBS PPA.pdf, Page 52) with different rates for such reductions. If 147 MW or 150 MW refers to a reduction in Contract Capacity, the amounts payable would be:\n*   If reduction is greater than 5% and less than or equal to 10% of specified Contract Capacity: US$ 625,000 multiplied by the number of MW (star hydro power limited.pdf, Page 36).\n*   For HBS PPA, if reduction is greater than 5% and less than or equal to 10% of specified Contract Capacity: $350,000 multiplied by the number of MW of the reduction in excess of five percent (5%) (HBS PPA.pdf, Page 52)."
+    }
+  },
+  {
+    "input": {
+      "input": "Formula for LDh?"
+    },
+    "output": {
+      "output": "Based on the provided documents, the formula for Liquidated Damages for each hour (LDh) is partially described.\n\nFrom [star hydro power limited.pdf (Page 74)]:\nThe liquidated damages for each hour of unavailability shall be equal to, (provided that these liquidated damages shall apply and be payable by the Company only after the number of hours available to the Company under Section 5.6(A) have first been utilized; provided, further that no liquidated damages shall be payable when such unavailability occurs as a result of non-availability of water within Technical Limits) to the product of Forced Outage or Partial Forced Outage hours and one hundred and...\n\n**Conditions for LDh applicability** [star hydro power limited.pdf (Page 146)]:\nLDh for an hour shall be applicable and payable only if the Forced or Partial Forced Outage period allowed to the Company under Sections 5.6 (A) first have been exhausted in the relevant Agreement Year.\n\nThe Forced or Partial Forced Outage period shall be:\n*   For the first Agreement Year: the product of the Tested Capacity and 200 hours.\n*   After the first Agreement Year: the product of the Tested Capacity and the sum of 133 hours and fifty percent (50%) of the Scheduled Outage Hours left unutilized in the Year that ended.\n\nPlease note that the formula for \"liquidated damages for each hour of unavailability\" (which corresponds to LDh) is incomplete in the provided text from [star hydro power limited.pdf (Page 74)]."
+    }
+  },
+  {
+    "input": {
+      "input": "how to identify stakeholders?"
+    },
+    "output": {
+      "output": "To identify stakeholders, you should:\n\n*   Use expert judgment.\n*   Conduct focus groups.\n*   Organize workshops.\n*   Utilize organizational process assets (OPA).\n*   Consider enterprise environmental factors (EEFs).\n\n(PMP at a glance.pdf, Page 12)"
+    }
+  },
+  {
+    "input": {
+      "input": "What is the formula for lliaf?"
+    },
+    "output": {
+      "output": "The formula for the Local Loan Interest Adjustment Factor (LLIAFq) is:\n\nLLIAFq = {KIBORt + 3.25%} / {[KIBORRef + 3.25%}\n\nwhere:\n*   **LLIAFq** is the value of the Local Loan Interest Rate Adjustment Factor applicable for the Quarter following the relevant indexation date, \"t\".\n\n(star hydro power limited.pdf, Page 158)"
+    }
+  },
+  {
+    "input": {
+      "input": "what is the star hydro"
+    },
+    "output": {
+      "output": "\"Star Hydro\" refers to **Star Hydro Power Limited**.\n\nBased on the provided documents:\n\n*   It is a public limited company incorporated under the Laws of Pakistan.\n*   Its principal office is located at House No. 534, Margalla Road, F-10/2, Islamabad, Pakistan.\n*   It is a party to a Power Purchase Agreement (PPA) dated March 08, 2012, with the Power Purchaser, and is referred to as \"the Company\" within this agreement.\n*   The PPA specifies methods for calculating payments to be made to Star Hydro Power Limited for various items such as Capacity Payments, Energy Payments, Water Use Payments, Pass-Through Items, Liquidated Damages, and payments for Net Electrical Output during testing.\n\n(star hydro power limited.pdf, Page 14, 121, 130)"
+    }
+  },
+  {
+    "input": {
+      "input": "what is neo"
+    },
+    "output": {
+      "output": "Based on the provided context:\n\n**NEO** stands for the **Net Electrical Output** of the Complex, measured in kWh, for Month M of the Pre-COD (Commercial Operations Date) period.\n\n(star hydro power limited.pdf, Page 153)"
+    }
+  },
+  {
+    "input": {
+      "input": "is there neo after pre-cod?"
+    },
+    "output": {
+      "output": "Yes, there is Net Electrical Output (NEO) after the Pre-COD (Commercial Operations Date) period.\n\nAccording to the documents:\n\n*   **General Definition:** \"Net Electrical Output\" is defined as the net electrical energy expressed in kWh that is generated by the Complex and delivered to the Interconnection Point (star hydro power limited.pdf, Page 21). This definition does not restrict it to the Pre-COD period.\n*   **Payment After COD:** The Power Purchaser is obligated to:\n    *   \"from and after the Commercial Operations Date, take delivery of and pay for the Net Electrical Output\" (star hydro power limited.pdf, Page 38).\n    *   \"from and after the Commercial Operations Date, take delivery of and pay for the Net Electrical Output generated during Capacity Tests carried out under Section 8.3, Section 8.4 and Section 8.9\" (star hydro power limited.pdf, Page 38).\n*   **Projections After COD:** The Company is required to notify the Power Purchaser of projections for Net Electrical Output on a daily basis for the following three (3) Months, \"not later than the 1st of September following the Commercial Operation Date and not latter than the 1st of September of each year thereafter\" (star hydro power limited.pdf, Page 43).\n\nWhile `NEOM` is specifically defined on Page 153 as \"the Net Electrical Output of the Complex, in kWh, for Month M of the Pre-COD period\" for the purpose of calculating Test Energy (Pre COD) Payment, the general concept and payment for Net Electrical Output continue after the Commercial Operations Date."
+    }
+  },
+  {
+    "input": {
+      "input": "what are the formulas where neo is used?"
+    },
+    "output": {
+      "output": "Based on the provided documents, the Net Electrical Output (NEO) is used in the following formula:\n\n**Test Energy (Pre COD) Payment for Month M (TEPM)**\n\nTEPM = NEOM x EPF\n\nWhere:\n*   **NEOM** is the Net Electrical Output of the Complex, in kWh, for Month M of the Pre-COD period.\n*   **EPF** is the Energy Payment Factor.\n\n(star hydro power limited.pdf, Page 149, 153)"
+    }
+  },
+  {
+    "input": {
+      "input": "what is neo?"
+    },
+    "output": {
+      "output": "Based on the provided context:\n\n**NEOM** stands for the **Net Electrical Output** of the Complex, measured in kWh, for Month M of the Pre-COD (Commercial Operations Date) period.\n\n(star hydro power limited.pdf, Page 153)"
+    }
+  },
+  {
+    "input": {
+      "input": "what is neo?"
+    },
+    "output": {
+      "output": "Based on the provided context:\n\n**NEOM** stands for the **Net Electrical Output** of the Complex, measured in kWh, for Month M of the Pre-COD (Commercial Operations Date) period.\n\n(star hydro power limited.pdf, Page 153)"
+    }
+  },
+  {
+    "input": {
+      "input": "what is neoh?"
+    },
+    "output": {
+      "output": "Based on the provided documents:\n\n**NEOh** stands for **Net Electrical Output** in the relevant hour h, converted into kW.\n\n(star hydro power limited.pdf, Page 148)"
+    }
+  }
+]
